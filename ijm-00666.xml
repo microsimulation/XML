@@ -148,6 +148,12 @@ separate affiliations -->
                     <country>Belgium</country>
                 </aff>             
             </contrib-group>
+            <author-notes>
+                <title>Competing interests</title>
+                    <fn fn-type="COI-statement" id="conf1">
+                        <p>No competing interests declared</p>
+                    </fn>
+            </author-notes>
              <pub-date publication-format="electronic" date-type="pub">
                 <day>25</day>
                 <month>04</month>
@@ -1536,12 +1542,6 @@ have an identifying lable (exception: inline tables, undesignated footnotes and 
     </body>
     <back>
         <sec sec-type="additional-information" id="s4">
-<fn-group content-type="competing-interest">
-                <title>Competing interests</title>
-                <fn fn-type="COI-statement" id="conf1">
-                    <p>No competing interests declared</p>
-                </fn>
-            </fn-group>
 <!--Software statement -->
              <fn-group content-type="software">
                 <title>Software availibility statement</title>
