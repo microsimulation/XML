@@ -83,33 +83,35 @@ One article could have up to 3 -->
 <!-- Author competing interests statement is linked to a contrib via the footnote with attribute fn-type="conflict" and the corresponding id (conf1, conf2 etc).
 Only one is allowed per author. If the author has no competing interest, this footnote can be shared with other authors.
 Where a competing interest is listed, this must be unique to the author. There is no display text associated with this link within contrib -->
-                     <xref ref-type="fn" rid="conf1"/>
+                     <xref ref-type="fn" rid="con1"/>
                 </contrib>
                 <contrib contrib-type="author">
                     <string-name>Ingrid Schockaert</string-name>
                     <email>ingrid.schockaert@vub.ac.be</email>
                     <aff>Interface Demography, Vrije Universiteit Brussel, Brussels, Belgium</aff>  
-                    <xref ref-type="fn" rid="conf1"/>
+                    <xref ref-type="author-notes" rid="con1"/>
                  </contrib>
                 <contrib contrib-type="author">
                     <string-name>André Decoster</string-name>
                     <email>andre.decoster@kuleuven.be</email>
                     <aff>Department of Economics, KU Leuven, Leuven, Belgium</aff>
-                    <xref ref-type="fn" rid="conf1"/>
+                    <xref ref-type="fn" rid="con2"/>
                 </contrib>
                 <contrib contrib-type="author">
                     <string-name>Patrick Deboosere</string-name>
                     <email>Patrick.Deboosere@vub.ac.be</email>
                     <aff>Department of Economics, KU Leuven, Leuven, Belgium</aff>
                     <aff>Department of Economics, Vrije Universiteit Brussel, Brussels, Belgium</aff> 
-                    <xref ref-type="fn" rid="conf1"/>
+                    <xref ref-type="fn" rid="con1"/>
                 </contrib>          
             </contrib-group>
             <author-notes>
-                <title>Competing interests</title>
-                    <fn fn-type="COI-statement" id="conf1">
+                    <fn fn-type="COI-statement" id="con1">
                         <p>No competing interests declared</p>
                     </fn>
+                <fn fn-type="COI-statement" id="con2">
+                    <p>André Decosterd is Editor-in-Chief of <italic>IJM</italic>.</p>
+                </fn>
             </author-notes>
              <pub-date publication-format="electronic" date-type="pub">
                 <day>25</day>
