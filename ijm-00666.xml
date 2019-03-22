@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1 20151215//EN" "JATS-archivearticle1-mathml3.dtd">
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20151215//EN" "JATS-archivearticle1-mathml3.dtd">
 <!-- IJM uses the JATS suggested @article-types from the given attribute list.
 The @article-types currently used are:
 research-article - Research article; 
@@ -9,7 +9,7 @@ editorial - Editorial
 product-review - Data watch, Software review
 book-review - Book review
 correction - Correction -->
-<article article-type="research-article" dtd-version="1.1" xmlns:ali="http://www.niso.org/schemas/ali/1.0/"
+<article article-type="research-article" dtd-version="1.2" xmlns:ali="http://www.niso.org/schemas/ali/1.0/"
     xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
     <front>
 <!-- journal-meta is standard for all articles published by IJM. Can be boilerplate text as this will not change from article to article. -->
@@ -1515,9 +1515,6 @@ have an identifying lable (exception: inline tables, undesignated footnotes and 
                         however, in the text the citations do not have to be in the same order as they are listed according to when the author of the article cites them. 
                         This article is littered with citations to ensure all the references are cited at some point. They have no relevance to the content 
                         <xref ref-type="bibr" rid="bib1">Acemoglu et al., 2007</xref>.</p>
-                </sec>
-            </sec>
-        </sec>
         <p>eLife is tagged up as XML using the NISO standard JATS DTD.
             We conform to the JATS4R recommendations where possible and also deliver our content to PMC.
             We also convert our JATS XML to PubMed and CrossRef DTDs when we deposit our content with them.
@@ -1535,6 +1532,9 @@ have an identifying lable (exception: inline tables, undesignated footnotes and 
         messy, not to mention rather silly: <named-content content-type="sequence">TAATAAGGAAGAACTGCTTATTCTTAATTATTTCTACCTACTAAACTAACTAATTATCAACAAATATCATCTATTTAATAGTATATCATCACATGCGGTGTAAGAGGATGACATAAAGATTGAGAAACAGTCATCCAGTCTAATGGAAGCTCAAATGCAAGGGCTGATAATGTAATAGGATAATGAATGACAACGTATAAAAGGAAAGAAGATAAAGCAATATTATTTTGTAGAATTATCGATTCCCTTTTGTGGATCCCTATATCCTCGAGGAGAA</named-content>.
         Sequences like this should be tagged during pre-editing. This tagging will also increase discoverability of gene sequences in
         eLife articles.</p>
+            </sec>
+            </sec>
+        </sec>
     </body>
     <back>
         <sec sec-type="additional-information" id="s4">
