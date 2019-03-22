@@ -40,7 +40,7 @@ The doi will need to be "generated" by the production system and will not come f
           Book review
           Correction -->
             <article-categories>
-                <subj-group subj-group-type="heading">
+                <subj-group subj-group-type="display-channel">
                     <subject>Research article</subject>
                 </subj-group>
 <!-- @subj-group-type heading - IJM-defined subject areas. This is a controlled list (case sensitive):
