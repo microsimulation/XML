@@ -71,14 +71,13 @@ One article could have up to 3 -->
                 <article-title>Projected Population, Inequality and Social Expenditures: The Case of Flanders</article-title>
             </title-group>
             <contrib-group>
-<!-- Each contrib MUST have @contrib-type - "author" and authors names are stored in string-->
+<!-- Each contrib MUST have @contrib-type - "author"-->
                  <contrib contrib-type="author">
                      <string-name>Rembert De Blander, Jnr</string-name>
-<!-- ORCIDS not provided during peer review. Only collected and validated via Kriya proof system. Will be ignored by Libero MVP -->
+<!-- ORCIDS not provided during peer review. Only collected and validated via Kriya proof system. Will be ignored by Libero -->
                     <contrib-id contrib-id-type="orcid"  authenticated="true">https://orcid.org/0000-0003-3523-4408</contrib-id>
 <!-- email for all author is contained within contrib -->                    
                     <email>Rembert@DeBlander.eu</email>
-<!-- affiliations for author contained within contrib as string within aff -->                    
                      <aff>Department of Economics, KU Leuven, Leuven, Belgium</aff>
 <!-- Author competing interests statement is linked to a contrib via the footnote with attribute fn-type="conflict" and the corresponding id (conf1, conf2 etc).
 Only one is allowed per author. If the author has no competing interest, this footnote can be shared with other authors.
