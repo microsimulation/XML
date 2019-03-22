@@ -29,7 +29,7 @@ correction - Correction -->
             <article-id pub-id-type="publisher-id">00666</article-id>
 <!--Applying for DOI at Crossref. IJM will use the Crossref prefix and the publisher-id to build the DOI. 
 The doi will need to be "generated" by the production system and will not come from the submission system -->            
-            <article-id pub-id-type="doi">10.7554/eLife.00666</article-id>
+            <article-id pub-id-type="doi">10.7543/eLife.00666</article-id>
 <!--   @subj-group-type="display-channel" following are allowed categories
           Research article
           Commentary
