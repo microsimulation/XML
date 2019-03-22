@@ -327,8 +327,6 @@ Use same sec ids as eLife (eg first level 1 heading "s1", level 2 heading under 
                 irrelevantly changed. If you express it by (decimal or binary) expansion, a single
                 error in a single digit may vitiate the entire result.&#x2019;</p>
               <boxed-text id="box1">
-                  <!-- UPDATE: DOI prefix removed from XML but must be added for display--> 
-                  <object-id pub-id-type="doi">10.7554/eLife.00666.017</object-id>
                   <label>Algorithm 1.</label>
                   <p>The coordination in the system is measured using the formula<disp-formula id="equ1"><mml:math id="m1"><mml:mstyle displaystyle="true"
                           scriptlevel="0"
