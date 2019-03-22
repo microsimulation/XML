@@ -166,7 +166,8 @@ separate affiliations -->
 <!-- TO NOTE: volume and issue is added on second publication (not part of Exeter workflow or PDF)-->
             <volume>1</volume>
             <issue>2</issue>
-            <elocation-id>e00666</elocation-id>
+            <fpage>1</fpage>
+            <lpage>6</lpage>
             <history>
                 <date date-type="received" iso-8601-date="2016-03-01">
                     <day>01</day>
