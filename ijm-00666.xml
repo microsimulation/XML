@@ -73,36 +73,78 @@ One article could have up to 3 -->
             <contrib-group>
 <!-- Each contrib MUST have @contrib-type - "author"-->
                  <contrib contrib-type="author">
-                     <string-name>Rembert De Blander, Jnr</string-name>
-<!-- ORCIDS not provided during peer review. Only collected and validated via Kriya proof system. Will be ignored by Libero -->
+                    <name>
+                        <surname>De Blander</surname>
+                        <given-names>Rembert</given-names>
+                        <suffix>Jnr</suffix>
+                     </name>
+<!-- ORCIDS not provided during peer review. Only collected and validated via Kriya proof system -->
                     <contrib-id contrib-id-type="orcid"  authenticated="true">https://orcid.org/0000-0003-3523-4408</contrib-id>
 <!-- email for all author is contained within contrib -->                    
                     <email>Rembert@DeBlander.eu</email>
-                     <aff>Department of Economics, KU Leuven, Leuven, Belgium</aff>
+ <!-- Author affiliation(s) are linked to a contrib via the xref link to their "aff". Each affiliation has a unique id, aff1, aff2, aff3 etc, which corresponds
+to the number used in the label. Authors can have one or multiple affiliations. There should be one aff per unique affiliation and these are shared between authors, not repeated.
+xref link requires display number (e.g. see below "1")-->
+                        <xref ref-type="aff" rid="aff1">1</xref>
 <!-- Author competing interests statement is linked to a contrib via the footnote with attribute fn-type="conflict" and the corresponding id (conf1, conf2 etc).
 Only one is allowed per author. If the author has no competing interest, this footnote can be shared with other authors.
 Where a competing interest is listed, this must be unique to the author. There is no display text associated with this link within contrib -->
                      <xref ref-type="fn" rid="conf1"/>
                 </contrib>
                 <contrib contrib-type="author">
-                    <string-name>Ingrid Schockaert</string-name>
+                    <name>
+                        <surname>Schockaert</surname>
+                        <given-names>Ingrid</given-names>
+                    </name>
                     <email>ingrid.schockaert@vub.ac.be</email>
-                    <aff>Interface Demography, Vrije Universiteit Brussel, Brussels, Belgium</aff>  
+                    <xref ref-type="aff" rid="aff1">2</xref>
                     <xref ref-type="fn" rid="conf1"/>
                  </contrib>
                 <contrib contrib-type="author">
-                    <string-name>André Decoster</string-name>
+                    <name>
+                        <surname>Decoster</surname>
+                        <given-names>André</given-names>
+                    </name>
                     <email>andre.decoster@kuleuven.be</email>
-                    <aff>Department of Economics, KU Leuven, Leuven, Belgium</aff>
+                    <xref ref-type="aff" rid="aff1">1</xref>
                     <xref ref-type="fn" rid="conf1"/>
                 </contrib>
                 <contrib contrib-type="author">
-                    <string-name>Patrick Deboosere</string-name>
+                    <name>
+                        <surname>Deboosere</surname>
+                        <given-names>Patrick</given-names>
+                    </name>
                     <email>Patrick.Deboosere@vub.ac.be</email>
-                    <aff>Department of Economics, KU Leuven, Leuven, Belgium</aff>
-                    <aff>Department of Economics, Vrije Universiteit Brussel, Brussels, Belgium</aff> 
+                    <xref ref-type="aff" rid="aff1">3</xref>
                     <xref ref-type="fn" rid="conf1"/>
-                </contrib>          
+                </contrib>
+<!-- Affiliations are granular and a department field must contain only one department. For example, two departments at one institution (see below) generate two 
+separate affiliations -->
+                <aff id="aff1">
+                    <label>1</label>
+                    <institution content-type="dept">Department of Economics</institution>
+                    <institution>KU Leuven</institution>
+                    <addr-line>
+                        <named-content content-type="city">Leuven</named-content>
+                    </addr-line>
+                    <country>Belgium</country>
+                </aff>
+                <aff id="aff2">
+                    <label>2</label>
+                    <institution content-type="dept">Interface Demography</institution>
+                    <institution>Vrije Universiteit Brussel</institution>
+                    <addr-line><named-content content-type="city">Brussels</named-content>
+                    </addr-line>
+                    <country>Belgium</country>
+                </aff>  
+                <aff id="aff3">
+                    <label>3</label>
+                    <institution content-type="dept">Department of Economics</institution>
+                    <institution>Vrije Universiteit Brussel</institution>
+                    <addr-line><named-content content-type="city">Brussels</named-content>
+                    </addr-line>
+                    <country>Belgium</country>
+                </aff>             
             </contrib-group>
             <author-notes>
                 <title>Competing interests</title>
