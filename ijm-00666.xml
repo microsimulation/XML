@@ -99,7 +99,7 @@ Where a competing interest is listed, this must be unique to the author. There i
                         <given-names>Ingrid</given-names>
                     </name>
                     <email>ingrid.schockaert@vub.ac.be</email>
-                    <xref ref-type="aff" rid="aff1">2</xref>
+                    <xref ref-type="aff" rid="aff2">2</xref>
                     <xref ref-type="fn" rid="conf1"/>
                  </contrib>
                 <contrib contrib-type="author">
@@ -117,7 +117,7 @@ Where a competing interest is listed, this must be unique to the author. There i
                         <given-names>Patrick</given-names>
                     </name>
                     <email>Patrick.Deboosere@vub.ac.be</email>
-                    <xref ref-type="aff" rid="aff1">3</xref>
+                    <xref ref-type="aff" rid="aff3">3</xref>
                     <xref ref-type="fn" rid="conf1"/>
                 </contrib>
 <!-- Affiliations are granular and a department field must contain only one department. For example, two departments at one institution (see below) generate two 
