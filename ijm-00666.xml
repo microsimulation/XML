@@ -1520,25 +1520,23 @@ have an identifying lable (exception: inline tables, undesignated footnotes and 
                 </sec>
             </sec>
         </sec>
-        <sec>
-            <p>eLife is tagged up as XML using the NISO standard JATS DTD. 
-                We conform to the JATS4R recommendations where possible and also deliver our content to PMC.
-                We also convert our JATS XML to PubMed and CrossRef DTDs when we deposit our content with them.
-                eLife content is delivered to more repositories and it can be scraped from the eLife site (<xref ref-type="bibr" rid="bib17">Love et al., 2002</xref>; <xref ref-type="bibr" rid="bib22">Ostrom, 1999</xref>; 
-                <xref ref-type="bibr" rid="bib27">Sloan, 1964</xref>).</p>
-            <p>The following is an example of monotype text within the body of an eLife article.</p>
-            <p><monospace>P<sub>NRE+AP-1</sub>: 5’– CTTCGTGACTAGTCTTGACTCAGA –3’</monospace></p>
-            <p><monospace>P<sub>RAM</sub>: 5’– CTAGAAGTTTGTTCGTGACTCAGA –3’</monospace></p>
-            <p><monospace>E1: 5’– CTAGAAGTTTGTTGACTCACCCGA –3’</monospace></p>
-            <p><monospace>E2: 5’– CTAGAAGTTTGTTGACTCATTAGA –3’</monospace></p>
-            <p><monospace>E3: 5’– CTAGAAGTTTGTGTATGACTCAGA –3’</monospace></p>
-            <p><monospace>CME: 5’– CTAGAAATTTGTACGTGCCACAGA –3’</monospace></p>
-            <p>In some cases, authors will include extremely long gene sequences or other letter strings that need to be enclosed withing a particular style tagging in order that
-            they can be wrapped on the final HTML display. If this tagging is not included, the strings will likely spill across the edge of the text column, which can look very
-            messy, not to mention rather silly: <named-content content-type="sequence">TAATAAGGAAGAACTGCTTATTCTTAATTATTTCTACCTACTAAACTAACTAATTATCAACAAATATCATCTATTTAATAGTATATCATCACATGCGGTGTAAGAGGATGACATAAAGATTGAGAAACAGTCATCCAGTCTAATGGAAGCTCAAATGCAAGGGCTGATAATGTAATAGGATAATGAATGACAACGTATAAAAGGAAAGAAGATAAAGCAATATTATTTTGTAGAATTATCGATTCCCTTTTGTGGATCCCTATATCCTCGAGGAGAA</named-content>.
-            Sequences like this should be tagged during pre-editing. This tagging will also increase discoverability of gene sequences in
-            eLife articles.</p>
-        </sec>
+        <p>eLife is tagged up as XML using the NISO standard JATS DTD.
+            We conform to the JATS4R recommendations where possible and also deliver our content to PMC.
+            We also convert our JATS XML to PubMed and CrossRef DTDs when we deposit our content with them.
+            eLife content is delivered to more repositories and it can be scraped from the eLife site (<xref ref-type="bibr" rid="bib17">Love et al., 2002</xref>; <xref ref-type="bibr" rid="bib22">Ostrom, 1999</xref>;
+            <xref ref-type="bibr" rid="bib27">Sloan, 1964</xref>).</p>
+        <p>The following is an example of monotype text within the body of an eLife article.</p>
+        <p><monospace>P<sub>NRE+AP-1</sub>: 5’– CTTCGTGACTAGTCTTGACTCAGA –3’</monospace></p>
+        <p><monospace>P<sub>RAM</sub>: 5’– CTAGAAGTTTGTTCGTGACTCAGA –3’</monospace></p>
+        <p><monospace>E1: 5’– CTAGAAGTTTGTTGACTCACCCGA –3’</monospace></p>
+        <p><monospace>E2: 5’– CTAGAAGTTTGTTGACTCATTAGA –3’</monospace></p>
+        <p><monospace>E3: 5’– CTAGAAGTTTGTGTATGACTCAGA –3’</monospace></p>
+        <p><monospace>CME: 5’– CTAGAAATTTGTACGTGCCACAGA –3’</monospace></p>
+        <p>In some cases, authors will include extremely long gene sequences or other letter strings that need to be enclosed withing a particular style tagging in order that
+        they can be wrapped on the final HTML display. If this tagging is not included, the strings will likely spill across the edge of the text column, which can look very
+        messy, not to mention rather silly: <named-content content-type="sequence">TAATAAGGAAGAACTGCTTATTCTTAATTATTTCTACCTACTAAACTAACTAATTATCAACAAATATCATCTATTTAATAGTATATCATCACATGCGGTGTAAGAGGATGACATAAAGATTGAGAAACAGTCATCCAGTCTAATGGAAGCTCAAATGCAAGGGCTGATAATGTAATAGGATAATGAATGACAACGTATAAAAGGAAAGAAGATAAAGCAATATTATTTTGTAGAATTATCGATTCCCTTTTGTGGATCCCTATATCCTCGAGGAGAA</named-content>.
+        Sequences like this should be tagged during pre-editing. This tagging will also increase discoverability of gene sequences in
+        eLife articles.</p>
     </body>
     <back>
         <sec sec-type="additional-information" id="s4">
