@@ -1538,16 +1538,6 @@ have an identifying lable (exception: inline tables, undesignated footnotes and 
         </sec>
     </body>
     <back>
-        <sec sec-type="additional-information" id="s4">
-<!--Software statement -->
-             <fn-group content-type="software">
-                <title>Software availibility statement</title>
-                <fn fn-type="other">
-                    <p> The model is built in Python programming language. Model code is available at <ext-link ext-link-type="uri"
-                            xlink:href="https://bitbucket.org/VipinVeetil/CoordinationSystems">https://bitbucket.org/VipinVeetil/CoordinationSystems</ext-link>.</p>
-                </fn>
-          </fn-group>
-        </sec>
         <sec sec-type="supplementary-material" id="s5" >
             <title>Additional files</title>
 <!-- IJM allows for supplementary files in the form of source code, source data and generic supplementary files -->             
@@ -1576,62 +1566,12 @@ have an identifying lable (exception: inline tables, undesignated footnotes and 
           </sec>        
 <!-- Datasets: TBC with IJM staff. May be just the statement and not full element references. -->
         <sec sec-type="data-availability" id="s6">
-            <title>Data availability</title>
-            <p>All relevant data are within the paper and its Supporting Information files. The two
-                musculoskeletal graphs used, as well as muscle community assignments, and data used
-                to generate all figures can be found at DOI:10.5281/zenodo.1069104.</p>
-            <p>The following dataset was generated:</p>
-            <p>
-                <element-citation publication-type="data" specific-use="isSupplementedBy"
-                    id="dataset1">
-                    <person-group person-group-type="author">
-                        <name>
-                            <surname>Piwowar</surname>
-                            <given-names>HA</given-names>
-                        </name>
-                        <name>
-                            <surname>Vision</surname>
-                            <given-names>TJ</given-names>
-                        </name>
-                        <name>
-                            <surname>Whitlock</surname>
-                            <given-names>MC</given-names>
-                        </name>
-                    </person-group>
-                    <year iso-8601-date="2017">2017</year>
-                    <data-title>Data from: Data archiving is a good investmen</data-title>
-                    <source>Dryad</source>
-                    <pub-id pub-id-type="doi" assigning-authority="dryad">http://dx.doi.org/10.5061/dryad.j1fd7</pub-id>
-                </element-citation>
-            </p>
-            <p>The following previously published datasets were used:</p>
-            <p>
-                <element-citation publication-type="data" specific-use="references" id="dataset2">
-                    <person-group person-group-type="author">
-                        <name>
-                            <surname>Luco</surname>
-                            <given-names>RF</given-names>
-                        </name>
-                        <name>
-                            <surname>Pan</surname>
-                            <given-names>Q</given-names>
-                        </name>
-                        <name>
-                            <surname>Tominaga</surname>
-                            <given-names>K</given-names>
-                        </name>
-                        <name>
-                            <surname>Blencowe</surname>
-                            <given-names>BJ</given-names>
-                        </name>
-                    </person-group>
-                    <year iso-8601-date="2012">2012</year>
-                    <data-title>This is an amazing dataset</data-title>
-                    <source>Zenodo</source>
-                    <pub-id pub-id-type="doi" assigning-authority="zenodo">https://doi.org/10.11144/Javeriana.cl20-39.bdfp</pub-id>
-                </element-citation>
-            </p>
+            <title>Data Availability</title>
+            <p>All data used for this research are available for scientific research upon approval of a research project by the data provider.</p>
         </sec>
+        <sec sec-type="software-availability" id="s7">
+            <title>Software Availability</title>
+            <p>The code for the model is available open source from this (<ext-link ext-link-type="uri" xlink:href="http://github.com/link/link">link</ext-link>) github repository.</p></sec>
          <ack id="ack">
             <title>Acknowledgements</title>
             <sec sec-type="ack" id="ack-1">
@@ -2279,7 +2219,7 @@ https://www.ncbi.nlm.nih.gov/pmc/pmcdoc/tagging-guidelines/article/JournalPub-sa
         <app-group>
             <app id="appendix-1">
             <title>Appendix 1</title>
-                <sec sec-type="appendix" id="s7">
+                <sec sec-type="appendix" id="s8">
                     <title>Preparation</title>
                     <p>Appendices can contain figures, tables or any other assets.</p>
                         <fig id="app1fig1" position="float">
