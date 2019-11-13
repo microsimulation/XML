@@ -30,7 +30,7 @@ correction - Correction -->
 <!--Applying for DOI at Crossref. IJM will use the Crossref prefix and the publisher-id to build the DOI. 
 The doi will need to be "generated" by the production system and will not come from the submission system -->            
             <article-id pub-id-type="doi">10.7543/eLife.00666</article-id>
-<!--   @subj-group-type="display-channel" following are allowed categories
+<!--   @subj-group-type="heading" following are allowed categories
           Research article
           Commentary
           Research note
@@ -40,10 +40,10 @@ The doi will need to be "generated" by the production system and will not come f
           Book review
           Correction -->
             <article-categories>
-                <subj-group subj-group-type="display-channel">
+                <subj-group subj-group-type="heading">
                     <subject>Research article</subject>
                 </subj-group>
-<!-- @subj-group-type heading - IJM-defined subject areas. This is a controlled list (case sensitive):
+<!-- @subj-group-type subject - IJM-defined subject areas. This is a controlled list (case sensitive):
 Health
 Demography
 Education
@@ -62,10 +62,10 @@ Institutions and incentives
 Methodology
 Miscellaneous
 One article could have up to 3 -->
-                <subj-group subj-group-type="heading">
+                <subj-group subj-group-type="subject">
                     <subject>Transport</subject>
                 </subj-group>
-                <subj-group subj-group-type="heading">
+                <subj-group subj-group-type="subject">
                     <subject>Innovation</subject>
                 </subj-group>
               </article-categories>
@@ -75,13 +75,13 @@ One article could have up to 3 -->
             <contrib-group>
 <!-- Each contrib MUST have @contrib-type - "author"-->
                  <contrib contrib-type="author">
+<!-- ORCIDS copy and pasted into the system because they are not collected via authentication process at any time in the workflow -->
+                     <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-3523-4408</contrib-id>
                     <name>
                         <surname>De Blander</surname>
                         <given-names>Rembert</given-names>
                         <suffix>Jnr</suffix>
                      </name>
-<!-- ORCIDS not provided during peer review. Only collected and validated via Kriya proof system -->
-                    <contrib-id contrib-id-type="orcid"  authenticated="true">https://orcid.org/0000-0003-3523-4408</contrib-id>
 <!-- email for all author is contained within contrib -->                    
                     <email>Rembert@DeBlander.eu</email>
  <!-- Author affiliation(s) are linked to a contrib via the xref link to their "aff". Each affiliation has a unique id, aff1, aff2, aff3 etc, which corresponds
@@ -93,7 +93,7 @@ Only one is allowed per author. If the author has no competing interest, this fo
 Where a competing interest is listed, this must be unique to the author. There is no display text associated with this link within contrib -->
                      <xref ref-type="fn" rid="conf1"/>
                 </contrib>
-                <contrib contrib-type="author">
+                <contrib contrib-type="author" corresp="yes">
                     <name>
                         <surname>Schockaert</surname>
                         <given-names>Ingrid</given-names>
@@ -102,7 +102,7 @@ Where a competing interest is listed, this must be unique to the author. There i
                     <xref ref-type="aff" rid="aff2">2</xref>
                     <xref ref-type="fn" rid="conf1"/>
                  </contrib>
-                <contrib contrib-type="author">
+                <contrib contrib-type="author" corresp="yes">
                     <name>
                         <surname>Decoster</surname>
                         <given-names>André</given-names>
@@ -1198,18 +1198,12 @@ the first and the header row of the second.-->
                                     <td>8.1 × 10<sup>4</sup></td>
                                     <td><xref ref-type="bibr" rid="bib6">Ferry et al., 2014</xref></td>
                                 </tr>
-                            </tbody>
-                        </table>
-                        <table frame="hsides" rules="groups">
-                             <thead>
                                 <tr>
                                      <th rowspan="2">Protein</th>
                                      <th rowspan="2">Molar ratio of lipid:protein in RPL reactions<xref ref-type="table-fn" rid="tablefn1">*</xref></th>
                                      <th colspan="2">Molar ratio of lipid:protein on vacuoles</th>
                                      <th rowspan="2">References<xref ref-type="table-fn" rid="tablefn2">†</xref></th>
                                 </tr>
-                            </thead>
-                            <tbody>
                                 <tr>
                                     <td>Ypt7p</td>
                                     <td>4 × 10<sup>3</sup></td>
