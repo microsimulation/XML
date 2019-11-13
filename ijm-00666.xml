@@ -238,6 +238,7 @@ Commentary to Research: <related-article related-article-type="commentary-articl
             </kwd-group>
 <!-- jel classification - industry controlled list. These will be provided in the Word file-->
             <kwd-group kwd-group-type="jel-classification">
+                <title>JEL classification</title>
                 <kwd>C01</kwd>
                 <kwd>C09</kwd>
             </kwd-group>
