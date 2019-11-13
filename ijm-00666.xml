@@ -93,7 +93,7 @@ Only one is allowed per author. If the author has no competing interest, this fo
 Where a competing interest is listed, this must be unique to the author. There is no display text associated with this link within contrib -->
                      <xref ref-type="fn" rid="conf1"/>
                 </contrib>
-                <contrib contrib-type="author">
+                <contrib contrib-type="author" corresp="yes">
                     <name>
                         <surname>Schockaert</surname>
                         <given-names>Ingrid</given-names>
@@ -102,7 +102,7 @@ Where a competing interest is listed, this must be unique to the author. There i
                     <xref ref-type="aff" rid="aff2">2</xref>
                     <xref ref-type="fn" rid="conf1"/>
                  </contrib>
-                <contrib contrib-type="author">
+                <contrib contrib-type="author" corresp="yes">
                     <name>
                         <surname>Decoster</surname>
                         <given-names>André</given-names>
