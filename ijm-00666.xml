@@ -1562,11 +1562,11 @@ have an identifying lable (exception: inline tables, undesignated footnotes and 
           </sec>        
 <!-- Datasets: TBC with IJM staff. May be just the statement and not full element references. -->
         <sec sec-type="data-availability" id="s6">
-            <title>Data Availability</title>
+            <title>Data availability</title>
             <p>All data used for this research are available for scientific research upon approval of a research project by the data provider.</p>
         </sec>
         <sec sec-type="software-availability" id="s7">
-            <title>Software Availability</title>
+            <title>Software availability</title>
             <p>The code for the model is available open source from this (<ext-link ext-link-type="uri" xlink:href="http://github.com/link/link">link</ext-link>) github repository.</p></sec>
          <ack id="ack">
             <title>Acknowledgements</title>
