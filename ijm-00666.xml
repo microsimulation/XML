@@ -230,7 +230,7 @@ Commentary to Research: <related-article related-article-type="commentary-articl
                     multiple paragarahs.</p>
             </abstract>
 <!-- UDPATE: Author keywords: these will probably be provided in all caps, in the Word file. The XML must be in sentence case. Need to allow for bold and italics-->
-            <kwd-group kwd-group-type="author-keywords">
+            <kwd-group kwd-group-type="author-generated">
                 <kwd>inequality</kwd>
                 <kwd>poverty</kwd>
                 <kwd>population projections</kwd>
