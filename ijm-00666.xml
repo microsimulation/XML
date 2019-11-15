@@ -166,6 +166,7 @@ separate affiliations -->
 <!-- TO NOTE: volume and issue is added on second publication (not part of Exeter workflow or PDF)-->
             <volume>1</volume>
             <issue>2</issue>
+            <issue-title>Special <italic>issue</italic> title</issue-title>
             <fpage>1</fpage>
             <lpage>6</lpage>
             <history>
@@ -229,7 +230,7 @@ Commentary to Research: <related-article related-article-type="commentary-articl
                     multiple paragarahs.</p>
             </abstract>
 <!-- UDPATE: Author keywords: these will probably be provided in all caps, in the Word file. The XML must be in sentence case. Need to allow for bold and italics-->
-            <kwd-group kwd-group-type="author-keywords">
+            <kwd-group kwd-group-type="author-generated">
                 <kwd>inequality</kwd>
                 <kwd>poverty</kwd>
                 <kwd>population projections</kwd>
@@ -237,6 +238,7 @@ Commentary to Research: <related-article related-article-type="commentary-articl
             </kwd-group>
 <!-- jel classification - industry controlled list. These will be provided in the Word file-->
             <kwd-group kwd-group-type="jel-classification">
+                <title>JEL classification</title>
                 <kwd>C01</kwd>
                 <kwd>C09</kwd>
             </kwd-group>
@@ -1560,11 +1562,11 @@ have an identifying lable (exception: inline tables, undesignated footnotes and 
           </sec>        
 <!-- Datasets: TBC with IJM staff. May be just the statement and not full element references. -->
         <sec sec-type="data-availability" id="s6">
-            <title>Data Availability</title>
+            <title>Data availability</title>
             <p>All data used for this research are available for scientific research upon approval of a research project by the data provider.</p>
         </sec>
         <sec sec-type="software-availability" id="s7">
-            <title>Software Availability</title>
+            <title>Software availability</title>
             <p>The code for the model is available open source from this (<ext-link ext-link-type="uri" xlink:href="http://github.com/link/link">link</ext-link>) github repository.</p></sec>
          <ack id="ack">
             <title>Acknowledgements</title>
