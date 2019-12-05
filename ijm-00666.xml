@@ -159,8 +159,9 @@ separate affiliations -->
                 <month>04</month>
                 <year>2016</year>
             </pub-date>
-<!-- TO NOTE: pub-type collection required for Libero to process content as VoR, but it is required in the Kitchen sink for that process-->
+            <!-- Issue publication date -->
             <pub-date pub-type="collection">
+                <season>Spring</season>
                 <year>2016</year>
             </pub-date>
 <!-- TO NOTE: volume and issue is added on second publication (not part of Exeter workflow or PDF)-->
